@@ -1,0 +1,18 @@
+---
+
+template:
+  author: puppetlabs
+  display: "Custom Puppet Class"
+  extension: 'pp'
+  id: custom_class
+  location: manifests
+  type: item
+  url: https://github.com/anotherorg/custom_pdk_class
+  version: 0.1.0
+  data:
+    one:
+      type: str
+      required: false
+    two:
+      type: str
+      required: false

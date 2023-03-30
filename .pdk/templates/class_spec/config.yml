@@ -1,0 +1,9 @@
+template:
+  author: puppetlabs
+  display: "Puppet Class Spec"
+  extension: 'rb'
+  id: class_spec
+  location: spec/unit
+  type: item
+  url: https://github.com/puppetlabs/pdk-templates/class_spec
+  version: 0.1.0

@@ -1,0 +1,11 @@
+---
+
+template:
+  author: puppetlabs
+  display: "Puppet Class"
+  extension: 'pp'
+  id: class
+  location: manifests
+  type: item
+  url: https://github.com/puppetlabs/pdk-templates/class
+  version: 0.1.0

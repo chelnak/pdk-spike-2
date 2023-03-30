@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require "pcdk"
+
+# Pcdk::CLI.start(ARGV)
+begin
+  Pcdk::CLI.start(ARGV)
+rescue StandardError => e
+  raise e if ARGV.include?('--debug')
+
+  puts "🔴 It looks like something didn't work as we expected.\n\n#{e.message}"
+  exit 1
+end
+
